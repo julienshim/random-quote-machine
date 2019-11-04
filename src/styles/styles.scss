@@ -1,0 +1,89 @@
+@import "./base/settings";
+@import "./base/base";
+
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:900&subset=korean");
+
+html {
+  font-size: 62.5%;
+}
+
+svg,
+#text,
+#author,
+#title {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h1 {
+  line-height: 9rem;
+  cursor: pointer;
+}
+
+.disable-selection {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+#title {
+  display: inline;
+  word-spacing: 100vh;
+  margin: 0;
+}
+
+.title {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.titleInverted {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+#new-quote,
+#tweet-quote {
+  background: none;
+  border: none;
+  fill: white;
+}
+
+#container {
+  height: 100vh;
+  padding: 50px;
+}
+
+#content {
+  font-weight: 900;
+  line-height: 1.2em;
+  margin: 0 auto;
+  width: 500px;
+  word-break: keep-all;
+}
+
+#text {
+  display: inline-block;
+}
+
+#author {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+#tweet-quote {
+  margin-left: 25px;
+}
+
+#buttons-container {
+  margin: 25px 0;
+}
